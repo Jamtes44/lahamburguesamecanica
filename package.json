@@ -1,0 +1,12 @@
+{
+  "name": "la-hamburguesa-mecanica",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs && tailwindcss -i src/styles.css -o dist/styles.css --minify",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}

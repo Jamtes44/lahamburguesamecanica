@@ -1,0 +1,27 @@
+node_modules/
+dist/
+
+# Herramientas locales
+.claude/
+graphify-out/
+skills-lock.json
+CLAUDE.md
+.graphifyignore
+
+# Exportación original de Stitch y material de referencia
+/1._*/
+/2._*/
+/3._*/
+/4._*/
+/5._*/
+/dramatic_cinematic_food_photography_of_an_artisanal_gourmet_burger_with/
+/image.png/
+/mechanical_dystopia_street_art/
+/design_3.md
+
+# Imágenes generadas por IA de la exportación de Stitch; ya no se usan
+/src/img/index-*
+/src/img/menu-*
+/src/img/concepto-*
+/src/img/burger-master-*
+/src/img/logo.jpg

@@ -1,0 +1,55 @@
+{
+  "pages": [
+    {
+      "file": "index.html",
+      "label": "Inicio",
+      "title": "La Hamburguesa Mecánica | Hamburguesas artesanales en Bogotá",
+      "description": "Hamburguesas artesanales de carne madurada, cócteles y jugos en Álamos Norte, Bogotá. Participante oficial de Burger Master 2023 a 2026. Pide a domicilio o reserva."
+    },
+    {
+      "file": "menu.html",
+      "label": "Menú",
+      "title": "Menú | La Hamburguesa Mecánica",
+      "description": "Carta de La Hamburguesa Mecánica: hamburguesas, churrasco, entradas, cócteles, jugos y malteadas. Pide a domicilio en Bogotá por WhatsApp o Rappi."
+    },
+    {
+      "file": "concepto.html",
+      "label": "El Concepto",
+      "title": "El Concepto | La Hamburguesa Mecánica",
+      "description": "No somos fast food, somos una experiencia. Conoce la casa de La Hamburguesa Mecánica en Álamos Norte, Bogotá: carne madurada, cócteles y buena música."
+    },
+    {
+      "file": "contacto.html",
+      "label": "Ubicación &amp; Contacto",
+      "title": "Ubicación y Contacto | La Hamburguesa Mecánica",
+      "description": "Calle 72 #98B-15, Álamos Norte, Engativá, Bogotá. Reserva tu mesa, pide a domicilio por WhatsApp o Rappi y encuentra cómo llegar a La Hamburguesa Mecánica."
+    },
+    {
+      "file": "burger-master.html",
+      "label": "Burger Master &amp; Comunidad",
+      "title": "Burger Master y Comunidad | La Hamburguesa Mecánica",
+      "description": "La Novena Sinfonía, Moloko, Kubrick y Ludovico: las hamburguesas de La Hamburguesa Mecánica en Burger Master, de 2023 a 2026. Todas siguen en la carta."
+    }
+  ],
+  "data": {
+    "whatsapp": "573167371122",
+    "phoneDisplay": "+57 316 737 1122",
+    "phoneTel": "+573167371122",
+    "email": "hamburguesa.mecanica@gmail.com",
+    "maps": "https://maps.app.goo.gl/M7S99heR1XE8C5Cd9",
+    "mapsEmbed": "https://www.google.com/maps?q=Calle+72+%2398B-15,+Bogot%C3%A1,+Colombia&output=embed",
+    "rappi": "https://www.rappi.com.co/restaurantes/900014915-la-hamburguesa-mecanica",
+    "hoursWeek": "1:45 PM – 9:45 PM",
+    "hoursPeak": "1:45 PM – 10:45 PM",
+    "hoursSunday": "1:15 PM – 9:45 PM",
+    "instagram": "https://www.instagram.com/lahamburguesamecanica",
+    "facebook": "https://www.facebook.com/LaHamburguesaMecanica/",
+    "tiktok": "https://www.tiktok.com/@lahamburguesamecanica",
+    "siteUrl": ""
+  },
+  "pending": [
+    "Horarios: son los de Rappi; confirmar el horario del local con el cliente.",
+    "Cócteles: el menú oficial no trae precios; agregarlos en src/carta.json.",
+    "Dominio: define siteUrl en src/site.json para activar la URL canónica y la imagen al compartir."
+  ]
+}

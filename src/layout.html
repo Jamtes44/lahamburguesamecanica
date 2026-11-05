@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="dark" lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>{{title}}</title>
+<meta content="{{description}}" name="description"/>
+<meta content="La Hamburguesa Mecánica" property="og:site_name"/>
+<meta content="{{title}}" property="og:title"/>
+<meta content="{{description}}" property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="es_CO" property="og:locale"/>
+{{absoluteTags}}
+<link href="img/logo.png" rel="icon" type="image/png"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=JetBrains+Mono:wght@500;700&amp;family=Oswald:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+{{jsonLd}}
+</head>
+<body class="bg-background font-body-md text-body-md text-on-surface antialiased selection:bg-primary-container selection:text-ink-white" data-whatsapp="{{whatsapp}}">
+<a class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[60] focus:bg-paper-stencil focus:text-surface-dark focus:px-space-md focus:py-space-sm" href="#contenido">Saltar al contenido</a>
+<header class="fixed top-0 w-full z-50 bg-surface-dark border-b-2 border-outline-variant shadow-[0_4px_0_0_#000000]"><div class="h-20 max-w-7xl mx-auto px-gutter flex items-center justify-between gap-space-md"><a aria-label="La Hamburguesa Mecánica, inicio" class="flex items-center gap-space-md shrink-0" href="index.html"><img alt="Logo La Hamburguesa Mecánica" class="h-12 w-auto object-contain" src="img/logo.png"/><div class="hidden sm:flex flex-col"><span class="font-headline-sm text-headline-sm uppercase tracking-wider text-ink-white leading-none">La Hamburguesa</span><span class="font-headline-sm text-headline-sm uppercase tracking-wider text-primary-container leading-none">Mecánica</span></div></a><nav aria-label="Principal" class="hidden xl:flex items-center gap-space-xs font-headline-sm text-body-md uppercase tracking-wider">{{nav}}</nav><div class="flex items-center gap-space-sm shrink-0"><a aria-label="Ver pedido" class="relative p-space-sm bg-surface-container border-2 border-outline hover:border-primary-container text-ink-white shadow-[2px_2px_0_0_#000000] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all flex items-center justify-center" data-cart-open href="menu.html"><span class="material-symbols-outlined text-[20px]">shopping_bag</span><span class="absolute -top-1.5 -right-1.5 bg-primary-container text-on-primary-container font-label-code text-[11px] px-1 font-bold border border-surface-dark" data-cart-count>0</span></a><a class="hidden sm:inline-flex items-center gap-space-xs bg-primary-container hover:bg-gear-amber text-on-primary-container font-headline-sm text-body-sm uppercase tracking-wider px-space-md py-space-sm border-2 border-surface-dark shadow-[3px_3px_0_0_#000000] active:translate-x-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0_0_#000000] transition-all" href="menu.html"><span class="material-symbols-outlined text-[18px]">electric_bolt</span><span>Pedir Domicilio</span></a><details class="xl:hidden"><summary aria-label="Menú" class="list-none [&::-webkit-details-marker]:hidden cursor-pointer p-space-sm bg-surface-container border-2 border-outline hover:border-primary-container text-ink-white shadow-[2px_2px_0_0_#000000] flex items-center justify-center"><span class="material-symbols-outlined text-[20px]">menu</span></summary><nav aria-label="Principal móvil" class="absolute left-0 right-0 top-full bg-surface-dark border-b-2 border-outline-variant shadow-[0_4px_0_0_#000000] p-space-md flex flex-col gap-space-xs font-headline-sm text-body-md uppercase tracking-wider">{{mobileNav}}</nav></details></div></div></header>
+{{content}}
+<footer class="w-full bg-surface-container-lowest border-t-4 border-outline-variant">
+<div class="max-w-7xl mx-auto px-gutter py-space-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl">
+<div class="flex flex-col gap-space-md">
+<img alt="Logo La Hamburguesa Mecánica" class="h-20 w-20 object-contain" src="img/logo.png"/>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Hamburguesas artesanales, cócteles y jugos. No somos fast food, somos una experiencia.</p>
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-xs bg-paper-stencil text-surface-dark w-fit font-label-badge text-label-badge uppercase shadow-[3px_3px_0_0_#FF6600]"><span class="material-symbols-outlined text-[16px]">military_tech</span><span>Burger Master 2023 - 2026</span></div>
+</div>
+<div class="flex flex-col gap-space-md">
+<h2 class="font-headline-sm text-headline-sm uppercase text-ink-white border-l-4 border-primary-container pl-space-xs">Dónde estamos</h2>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary-container" href="{{maps}}" rel="noopener noreferrer" target="_blank">Calle 72 #98B-15, Álamos Norte, Engativá, Bogotá</a>
+<div>
+<h3 class="font-headline-sm text-body-md uppercase text-ink-white">Horario de domicilios</h3>
+<p class="font-label-code text-label-code text-on-surface-variant">Lun - Jue: {{hoursWeek}}<br/>Vie - Sáb: {{hoursPeak}}<br/>Dom: {{hoursSunday}}</p>
+</div>
+</div>
+<div class="flex flex-col gap-space-md">
+<h2 class="font-headline-sm text-headline-sm uppercase text-ink-white border-l-4 border-primary-container pl-space-xs">Navegación</h2>
+<ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant uppercase tracking-wide">
+<li><a class="hover:text-primary-container transition-colors" href="index.html">Inicio</a></li>
+<li><a class="hover:text-primary-container transition-colors" href="menu.html">Menú</a></li>
+<li><a class="hover:text-primary-container transition-colors" href="concepto.html">El Concepto</a></li>
+<li><a class="hover:text-primary-container transition-colors" href="contacto.html">Ubicación &amp; Contacto</a></li>
+<li><a class="hover:text-primary-container transition-colors" href="burger-master.html">Burger Master &amp; Comunidad</a></li>
+</ul>
+</div>
+<div class="flex flex-col gap-space-md">
+<h2 class="font-headline-sm text-headline-sm uppercase text-ink-white border-l-4 border-primary-container pl-space-xs">Contacto y redes</h2>
+<div class="flex items-center gap-space-sm">
+<a aria-label="Instagram" class="p-space-sm bg-surface-container border-2 border-outline hover:border-primary-container text-ink-white hover:text-primary-container shadow-[2px_2px_0_0_#000000] transition-all flex items-center justify-center" rel="noopener noreferrer" target="_blank" href="{{instagram}}"><span class="material-symbols-outlined text-[20px]">photo_camera</span></a>
+<a aria-label="Facebook" class="p-space-sm bg-surface-container border-2 border-outline hover:border-primary-container text-ink-white hover:text-primary-container shadow-[2px_2px_0_0_#000000] transition-all flex items-center justify-center" rel="noopener noreferrer" target="_blank" href="{{facebook}}"><span class="material-symbols-outlined text-[20px]">public</span></a>
+<a aria-label="TikTok" class="p-space-sm bg-surface-container border-2 border-outline hover:border-primary-container text-ink-white hover:text-primary-container shadow-[2px_2px_0_0_#000000] transition-all flex items-center justify-center" rel="noopener noreferrer" target="_blank" href="{{tiktok}}"><span class="material-symbols-outlined text-[20px]">music_note</span></a>
+<a aria-label="WhatsApp" class="p-space-sm bg-surface-container border-2 border-outline hover:border-primary-container text-ink-white hover:text-primary-container shadow-[2px_2px_0_0_#000000] transition-all flex items-center justify-center" rel="noopener noreferrer" target="_blank" href="{{waDomicilio}}"><span class="material-symbols-outlined text-[20px]">chat</span></a>
+</div>
+<div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<a class="hover:text-primary-container" href="tel:{{phoneTel}}">{{phoneDisplay}}</a>
+<a class="hover:text-primary-container" href="mailto:{{email}}">{{email}}</a>
+</div>
+</div>
+</div>
+<div class="border-t-2 border-outline-variant py-space-md">
+<div class="max-w-7xl mx-auto px-gutter flex flex-col sm:flex-row items-center justify-between gap-space-sm font-label-code text-label-code text-outline text-center sm:text-left">
+<span>© 2026 La Hamburguesa Mecánica. Todos los derechos reservados.</span>
+<span>El exceso de alcohol es perjudicial para la salud. Prohibida su venta a menores de edad.</span>
+</div>
+</div>
+</footer>
+<div aria-modal="true" role="dialog" class="fixed inset-y-0 right-0 w-full sm:w-96 bg-surface-dark shadow-2xl z-50 transform translate-x-full transition-transform duration-300 flex flex-col justify-between" aria-label="Tu pedido" id="order-drawer" inert>
+<div class="p-space-md flex flex-col gap-space-md overflow-y-auto">
+<div class="flex items-center justify-between bg-surface-container p-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container">lunch_dining</span>
+<span class="font-headline-sm text-headline-sm uppercase text-ink-white">Bandeja Mecánica</span>
+</div>
+<button class="p-1 text-on-surface hover:text-ink-white" aria-label="Cerrar pedido" data-cart-close type="button">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<div class="flex flex-col gap-space-sm" id="drawer-items-list">
+<!-- Render dinámico de items -->
+<p class="font-body-sm text-body-sm text-outline text-center py-space-xl">
+          Tu bandeja está vacía.<br/>Agrega algún producto de la carta.
+        </p>
+</div>
+</div>
+<div class="p-space-md bg-surface-container-high flex flex-col gap-space-sm">
+<div class="flex items-center justify-between font-label-code text-body-md text-ink-white">
+<span>TOTAL ESTIMADO:</span>
+<span class="font-bold text-gear-amber" data-cart-total>$0 COP</span>
+</div>
+<p class="font-label-code text-[12px] text-on-surface-variant">Se abrirá WhatsApp con tu pedido. Solo queda confirmado cuando envías el mensaje.</p>
+<button class="w-full py-space-md bg-primary-container hover:bg-gear-amber text-on-primary-container font-headline-sm text-body-md uppercase tracking-wider shadow-lg transition-all flex items-center justify-center gap-2" data-cart-send type="button">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>Confirmar Pedido WhatsApp</span>
+</button>
+</div>
+</div>
+<div class="fixed inset-0 bg-surface-dim/80 backdrop-blur-sm z-40 hidden" data-cart-close id="drawer-backdrop"></div>
+<script src="site.js" type="module"></script>
+</body>
+</html>

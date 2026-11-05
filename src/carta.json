@@ -1,0 +1,121 @@
+[
+  {
+    "id": "recomendadas",
+    "title": "Lo más recomendado",
+    "items": [
+      { "name": "Kubrick", "badge": "Burger Master 2025", "desc": "150 g de carne, mermelada de uchuva, tocineta ahumada, pepinillos, crocantes de maíz, queso cheddar, mayonesa de paprika y pan brioche.", "prices": [{ "label": "Sola", "price": 28900 }, { "label": "Con papas", "price": 35900 }] },
+      { "name": "Moloko", "badge": "Burger Master 2024", "desc": "150 g de carne, salsa de queso parmesano, tocineta ahumada, salsa balsámica y romero, todo en pan brioche.", "prices": [{ "label": "Sola", "price": 28900 }, { "label": "Con papas", "price": 35900 }] },
+      { "name": "La Novena Sinfonía", "badge": "Burger Master 2023", "photo": "novena-sinfonia.jpg", "desc": "150 g de carne, chorizo santarrosano, mayonesa búfalo, chutney de pimentón, queso cheddar, vegetales y pan brioche.", "prices": [{ "label": "Sola", "price": 28900 }, { "label": "Con papas", "price": 35900 }] },
+      { "name": "Ludovico", "badge": "Burger Master 2026", "desc": "150 g de carne, tocineta ahumada, queso cheddar, salsa de ajo, mermelada de tomate en reducción de vino tinto y canela, cebollitas encurtidas, crujientes de plátano verde y pan brioche.", "prices": [{ "label": "Sola", "price": 28900 }, { "label": "Con papas", "price": 35900 }] },
+      { "name": "Alex", "desc": "200 g de carne, salsa de quesos ligeramente picante, tocineta, pepinillos, queso, vegetales y pan brioche.", "prices": [{ "label": "Sola", "price": 28900 }, { "label": "Con papas", "price": 36200 }] },
+      { "name": "La Jäger", "photo": "la-jager.jpg", "desc": "140 g de pollo, salsa Jägermeister, tocineta, pepinillos, anillos de cebolla apanados y pan brioche.", "prices": [{ "label": "Sola", "price": 30500 }, { "label": "Con papas", "price": 37500 }] },
+      { "name": "Jack", "badge": "Burger flameada", "desc": "150 g de carne, doble tocineta, anillos de cebolla apanados, salsa BBQ Jack Daniel's Honey, queso y pan brioche.", "prices": [{ "label": "Sola", "price": 29500 }, { "label": "Con papas", "price": 36500 }] }
+    ]
+  },
+  {
+    "id": "clasicas",
+    "title": "Nuestras clásicas",
+    "items": [
+      { "name": "La Tradicional", "desc": "150 g de carne, pepinillos, tocineta, queso, salsa de la casa, vegetales y pan brioche.", "prices": [{ "label": "Sola", "price": 23900 }, { "label": "Con papas", "price": 30900 }] },
+      { "name": "La Amarilla", "desc": "150 g de carne, tocineta, salsa de queso cheddar, queso, vegetales y pan brioche.", "prices": [{ "label": "Sola", "price": 25500 }, { "label": "Con papas", "price": 32500 }] },
+      { "name": "La Blanca", "desc": "150 g de carne, champiñones al ajillo, tocineta, queso, vegetales y pan brioche.", "prices": [{ "label": "Sola", "price": 27900 }, { "label": "Con papas", "price": 34900 }] }
+    ]
+  },
+  {
+    "id": "grandes",
+    "title": "Las más grandes",
+    "items": [
+      { "name": "La Doble Carne", "desc": "Doble carne de 150 g, tocineta, pepinillos, doble queso, salsa de la casa, vegetales y pan brioche.", "prices": [{ "label": "Sola", "price": 35900 }, { "label": "Con papas", "price": 42500 }] },
+      { "name": "La Pesada", "desc": "200 g de carne, tocineta, chorizo santarrosano, salsa BBQ, pepinillos, queso, salsa de la casa, vegetales y pan brioche.", "prices": [{ "label": "Sola", "price": 30900 }, { "label": "Con papas", "price": 37900 }] },
+      { "name": "La Mixta", "desc": "150 g de carne, 140 g de pollo, tocineta, pepinillos, queso, salsa de la casa, vegetales y pan brioche.", "prices": [{ "label": "Sola", "price": 36500 }, { "label": "Con papas", "price": 43500 }] }
+    ]
+  },
+  {
+    "id": "pollo-veggie",
+    "title": "De pollo y vegetariana",
+    "items": [
+      { "name": "Pollo & Tocineta", "desc": "140 g de pechuga, doble tocineta, pepinillos, queso, salsa de la casa, vegetales y pan brioche.", "prices": [{ "label": "Sola", "price": 28900 }, { "label": "Con papas", "price": 35900 }] },
+      { "name": "Veggie al Ajillo", "badge": "Vegetariana", "desc": "Hamburguesa de lenteja y orellanas, champiñones al ajillo, albahaca, queso, vegetales y pan brioche.", "prices": [{ "label": "Sola", "price": 29500 }, { "label": "Con papas", "price": 36500 }] }
+    ]
+  },
+  {
+    "id": "churrasco",
+    "title": "Churrasco",
+    "items": [
+      { "name": "Churrasco", "desc": "250 g de churrasco de res con sabor intenso y auténtico, acompañado de papa y ensalada de la casa.", "prices": [{ "label": "Con francesa", "price": 42900 }, { "label": "Con cascos o anillos", "price": 44500 }] }
+    ]
+  },
+  {
+    "id": "compartir",
+    "title": "Para compartir",
+    "items": [
+      { "name": "Papas con queso cheddar y tocineta", "desc": "Bañadas en salsa de cheddar y tocineta.", "prices": [{ "label": "A la francesa", "price": 16900 }, { "label": "En casco", "price": 17500 }] },
+      { "name": "Empanaditas de carne", "desc": "Cinco unidades.", "prices": [{ "price": 16900 }] }
+    ]
+  },
+  {
+    "id": "cocteles",
+    "title": "Cócteles",
+    "items": [
+      { "name": "Gin Tonic Frutos Rojos", "photo": "gin-tonic.jpg", "consult": true },
+      { "name": "Daiquirí de Maracuyá", "photo": "daiquiri-jack.jpg", "consult": true },
+      { "name": "Jack Honey Smash", "photo": "daiquiri-jack.jpg", "consult": true }
+    ]
+  },
+  {
+    "id": "jugos",
+    "title": "Jugos naturales y limonadas",
+    "items": [
+      { "name": "Jugo natural", "prices": [{ "label": "Mora", "price": 7900 }, { "label": "Lulo", "price": 7900 }, { "label": "Mango", "price": 7900 }] },
+      { "name": "Limonada natural", "prices": [{ "price": 6900 }] },
+      { "name": "Limonada de coco", "prices": [{ "price": 10500 }] },
+      { "name": "Limonada de hierbabuena", "prices": [{ "price": 9900 }] }
+    ]
+  },
+  {
+    "id": "sodas",
+    "title": "Sodas",
+    "items": [
+      { "name": "Soda de mango y limón", "desc": "Soda con pulpa de mango, limón y hielo.", "prices": [{ "price": 10900 }] },
+      { "name": "Soda de hierbabuena", "desc": "Soda de limón, hierbabuena y hielo.", "prices": [{ "price": 10900 }] },
+      { "name": "Soda cerezada", "desc": "Soda acerezada, limón y hielo.", "prices": [{ "price": 10900 }] }
+    ]
+  },
+  {
+    "id": "malteadas",
+    "title": "Malteadas",
+    "items": [
+      { "name": "Malteada de mora", "prices": [{ "price": 16500 }] },
+      { "name": "Malteada de vainilla", "prices": [{ "price": 16500 }] },
+      { "name": "Malteada de amaretto", "prices": [{ "price": 19500 }] }
+    ]
+  },
+  {
+    "id": "cervezas-gaseosas",
+    "title": "Cervezas y gaseosas",
+    "items": [
+      { "name": "Club Colombia Rubia", "prices": [{ "price": 6500 }] },
+      { "name": "Club Colombia Roja", "prices": [{ "price": 6500 }] },
+      { "name": "Corona", "prices": [{ "price": 11500 }] },
+      { "name": "Coca-Cola", "prices": [{ "price": 5500 }] },
+      { "name": "Coca-Cola Zero", "prices": [{ "price": 5500 }] },
+      { "name": "Soda Schweppes", "prices": [{ "price": 5500 }] },
+      { "name": "Agua Manantial", "prices": [{ "price": 5000 }] }
+    ]
+  },
+  {
+    "id": "adiciones",
+    "title": "Adiciones",
+    "items": [
+      { "name": "Porción de francesa", "prices": [{ "price": 8900 }] },
+      { "name": "Porción de cascos", "prices": [{ "price": 9900 }] },
+      { "name": "Anillos de cebolla", "prices": [{ "price": 10500 }] },
+      { "name": "Champiñones al ajillo", "prices": [{ "price": 4900 }] },
+      { "name": "Chorizo", "prices": [{ "price": 6200 }] },
+      { "name": "Tocineta", "prices": [{ "price": 4500 }] },
+      { "name": "Pepinillos", "prices": [{ "price": 4500 }] },
+      { "name": "Carne 150 g adicional", "prices": [{ "price": 9500 }] },
+      { "name": "Filete de pechuga", "prices": [{ "price": 10200 }] }
+    ]
+  }
+]
