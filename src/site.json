@@ -45,11 +45,11 @@
     "instagram": "https://www.instagram.com/lahamburguesamecanica",
     "facebook": "https://www.facebook.com/LaHamburguesaMecanica/",
     "tiktok": "https://www.tiktok.com/@lahamburguesamecanica",
-    "siteUrl": ""
+    "siteUrl": "https://jamtes44.github.io/lahamburguesamecanica"
   },
   "pending": [
     "Horarios: son los de Rappi; confirmar el horario del local con el cliente.",
     "Cócteles: el menú oficial no trae precios; agregarlos en src/carta.json.",
-    "Dominio: define siteUrl en src/site.json para activar la URL canónica y la imagen al compartir."
+    "Dominio: siteUrl usa la URL de GitHub Pages; cámbiala en src/site.json si compran dominio propio."
   ]
 }
