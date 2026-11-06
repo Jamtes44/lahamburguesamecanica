@@ -18,6 +18,9 @@
 }
 .papel :focus-visible { outline-color: #15120E; }
 
+/* La bandeja cerrada queda fuera de pantalla, pero su sombra asomaría sobre el papel. */
+#order-drawer[inert] { box-shadow: none; }
+
 @keyframes marquee {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
