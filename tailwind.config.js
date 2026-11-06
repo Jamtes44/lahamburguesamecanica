@@ -8,6 +8,9 @@ export default {
   "theme": {
     "extend": {
       "colors": {
+        "paper": "#E7DBC5",
+        "ink": "#15120E",
+        "rust": "#923304",
         "surface-container-highest": "#353534",
         "gear-amber": "#FF7700",
         "inverse-surface": "#e5e2e1",
